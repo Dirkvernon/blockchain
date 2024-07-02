@@ -1,0 +1,13 @@
+{
+    "name": "JVC Wallet",
+    "version": "1.0.0",
+    "description": "My first crypto wallet extension",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open wallet"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
