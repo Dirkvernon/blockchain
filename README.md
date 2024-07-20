@@ -83,4 +83,4 @@ For questions or feedback, please reach out to:
 
 Email: jvc8463@gmail.com
 GitHub: https://github.com/jvc-byte/jvcwallet
-linkedIn: https://linkedin.com/in/jvc-byte
+LinkedIn: https://linkedin.com/in/jvc-byte
