@@ -63,7 +63,7 @@ Navigate to the my-wallet directory:
 cd jvcwallet/my-wallet
 Start the development server:
 npm run dev
-Open your browser and go to http://localhost:3000 to interact with the application.
+Open your browser and go to http://localhost:5173 to interact with the application.
 
 ## Contributing
 We welcome contributions to the JVC Wallet project! To contribute:
