@@ -1,155 +1,172 @@
+/* Styles for the main App container */
 .App {
-  text-align: center;
-  background-color: rgba(255, 217, 0, 0.788);
-  border: 2px solid #dcdcfd25;
-  border-radius: 1rem;
-  width: 350px;
-  height: 600px;
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
+  text-align: center; /* Center-aligns text inside the container */
+  background-color: rgba(255, 217, 0, 0.788); /* Semi-transparent yellow background color */
+  border: 2px solid #dcdcfd25; /* Light border with opacity */
+  border-radius: 1rem; /* Rounded corners */
+  width: 350px; /* Fixed width */
+  height: 600px; /* Fixed height */
+  justify-content: flex-start; /* Aligns items to the start of the flex container */
+  align-items: center; /* Centers items horizontally */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Vertical alignment of children */
 }
 
+/* Styles for the logo on the front page */
 .frontPageLogo {
-  width: 50%;
+  width: 50%; /* Logo width is half of the parent container's width */
 }
 
+/* Styles for buttons on the front page */
 .frontPageButton {
-  width: 90%;
-  margin-top: 20px;
+  width: 90%; /* Button width is 90% of the parent container's width */
+  margin-top: 20px; /* Space above the button */
 }
 
+/* Styles for the bottom section on the front page */
 .frontPageBottom {
-  align-items: flex-end;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 15px;
-  gap: 5px;
+  align-items: flex-end; /* Aligns items to the end of the flex container */
+  display: flex; /* Flexbox layout */
+  height: 100%; /* Full height of the parent container */
+  justify-content: center; /* Centers items horizontally */
+  width: 100%; /* Full width of the parent container */
+  margin-bottom: 15px; /* Space below the bottom section */
+  gap: 5px; /* Space between items */
 }
 
 .frontPageBottom:hover {
-  cursor: pointer;
-  color: gray;
+  cursor: pointer; /* Pointer cursor on hover */
+  color: gray; /* Text color on hover */
 }
 
+/* Styles for h2 headings */
 h2 {
-  font-size: 40px;
-  margin-bottom: 5px;
-  color: rgb(46, 46, 46);
+  font-size: 40px; /* Font size for h2 headings */
+  margin-bottom: 5px; /* Space below the heading */
+  color: rgb(46, 46, 46); /* Text color */
 }
 
+/* Styles for h4 headings */
 .h4 {
-  color: rgb(46, 46, 46);
-  padding-bottom: 50px;
+  color: rgb(46, 46, 46); /* Text color */
+  padding-bottom: 50px; /* Space below the h4 element */
 }
 
+/* Styles for visited anchor links */
 a:visited {
-  color: blue;
+  color: blue; /* Color of visited links */
 }
 
+/* Styles for the header section */
 header {
-  width: 100%;
-  height: 60px;
-  background-color: #f9f9f9;
-  border: 2px solid #dcdcfd25;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
+  width: 100%; /* Full width of the parent container */
+  height: 60px; /* Fixed height */
+  background-color: #f9f9f9; /* Light background color */
+  border: 2px solid #dcdcfd25; /* Light border with opacity */
+  border-top-right-radius: 1rem; /* Rounded top-right corner */
+  border-top-left-radius: 1rem; /* Rounded top-left corner */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between children */
+  align-items: center; /* Aligns items vertically in the center */
+  margin-bottom: 30px; /* Space below the header */
 }
 
+/* Styles for the header logo */
 .headerLogo {
-  height: 40px;
-  margin-left: 20px;
+  height: 40px; /* Fixed height */
+  margin-left: 20px; /* Space to the left of the logo */
 }
 
+/* Styles for the dropdown menu */
 .dropdown {
-  margin-right: 20px;
+  margin-right: 20px; /* Space to the right of the dropdown */
 }
 
+/* Styles for content container */
 .content {
-  text-align: center;
-  width: 350px;
-  height: 520px;
-  overflow-y: auto;
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  text-align: center; /* Center-aligns text inside the container */
+  width: 350px; /* Fixed width */
+  height: 520px; /* Fixed height */
+  overflow-y: auto; /* Enables vertical scrolling */
+  justify-content: flex-start; /* Aligns items to the start of the flex container */
+  align-items: center; /* Centers items horizontally */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Vertical alignment of children */
+  position: relative; /* Allows for absolute positioning of child elements */
 }
 
+/* Styles for mnemonic phrase display */
 .mnemonic {
-  color: #fa2f14;
-  background: white;
-  border: 1px solid #ffb18f;
-  border-radius: 0rem;
-  padding: 5px;
-  text-align: justify;
-  width: 310px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
+  color: #fa2f14; /* Text color */
+  background: white; /* White background color */
+  border: 1px solid #ffb18f; /* Border with light orange color */
+  border-radius: 0rem; /* No border radius */
+  padding: 5px; /* Space inside the element */
+  text-align: justify; /* Justifies text alignment */
+  width: 310px; /* Fixed width */
+  display: flex; /* Flexbox layout */
+  justify-content: flex-start; /* Aligns items to the start of the flex container */
+  align-items: center; /* Centers items vertically */
+  gap: 10px; /* Space between items */
 }
 
+/* Styles for the seed phrase container */
 .seedPhraseContainer {
-  width: 310px;
-  min-height: 160px;
-  padding: 5px;
-  margin-top: 30px;
+  width: 310px; /* Fixed width */
+  min-height: 160px; /* Minimum height */
+  padding: 5px; /* Space inside the element */
+  margin-top: 30px; /* Space above the container */
 }
 
+/* Styles for wallet name display */
 .walletName {
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-align: center;
-  align-items: center;
-  margin-left: 10px;
+  font-weight: bold; /* Bold text */
+  margin-bottom: 5px; /* Space below the wallet name */
+  text-align: center; /* Center-aligns text */
+  align-items: center; /* Aligns items vertically */
+  margin-left: 10px; /* Space to the left of the wallet name */
 }
 
+/* Styles for the logout button */
 .logoutButton {
-  width: 30px;
-  height: 30px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: absolute;
-  right: 20px;
-  top: 5px;
-  border-radius: 100px;
+  width: 30px; /* Fixed width */
+  height: 30px; /* Fixed height */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  display: flex; /* Flexbox layout */
+  position: absolute; /* Absolute positioning */
+  right: 20px; /* Space to the right */
+  top: 5px; /* Space from the top */
+  border-radius: 100px; /* Circular shape */
 }
 
 .logoutButton:hover {
-  background-color: rgba(0, 0, 0, 0.036);
-  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.036); /* Light background color on hover */
+  cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Styles for the wallet view container */
 .walletView {
-  width: 350px;
-  padding: 10px;
-  height: 100%;
-  overflow-y: auto;
+  width: 350px; /* Fixed width */
+  padding: 10px; /* Space inside the element */
+  height: 100%; /* Full height of the parent container */
+  overflow-y: auto; /* Enables vertical scrolling */
 }
 
+/* Styles for send row container */
 .sendRow {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  align-items: center;
+  margin-bottom: 10px; /* Space below the row */
+  display: flex; /* Flexbox layout */
+  justify-content: flex-start; /* Aligns items to the start of the flex container */
+  gap: 10px; /* Space between items */
+  align-items: center; /* Centers items vertically */
 }
 
+/* Styles for NFT images */
 .nftImage {
-  margin-bottom: 10px;
-  height: 240px;
-  width: 240px;
-  object-fit: cover;
-  border-radius: 10px;
+  margin-bottom: 10px; /* Space below the image */
+  height: 240px; /* Fixed height */
+  width: 240px; /* Fixed width */
+  object-fit: cover; /* Ensures the image covers the container */
+  border-radius: 10px; /* Rounded corners */
 }
