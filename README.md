@@ -50,7 +50,7 @@ cd jvcwallet/my-wallet
 2. Install the dependencies:
 npm install
 
-### Usage
+## Usage
 
 1. Backend
 Start the backend server:
@@ -65,7 +65,7 @@ Start the development server:
 npm run dev
 Open your browser and go to http://localhost:3000 to interact with the application.
 
-### Contributing
+## Contributing
 We welcome contributions to the JVC Wallet project! To contribute:
 
 Fork the repository.
@@ -75,10 +75,10 @@ Push your branch to GitHub.
 Open a pull request describing your changes.
 Please ensure that your code follows the existing style and includes appropriate documentation.
 
-### License
+## License
 
 
-### Contact
+## Contact
 For questions or feedback, please reach out to:
 
 Email: jvc8463@gmail.com
