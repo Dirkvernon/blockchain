@@ -75,12 +75,7 @@ Push your branch to GitHub.
 Open a pull request describing your changes.
 Please ensure that your code follows the existing style and includes appropriate documentation.
 
-## License
-
-
 ## Contact
-For questions or feedback, please reach out to:
-
-Email: jvc8463@gmail.com
-GitHub: https://github.com/jvc-byte/jvcwallet
-LinkedIn: https://linkedin.com/in/jvc-byte
+Email: [Send A mail](mailto:jvc8463@gmail.com)
+X (Formally twitter): [jvc-byte](https://x.com/jvc_byte)
+LinkedIn: [jvc-byte](https://linkedin.com/in/jvc-byte)
